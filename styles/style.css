@@ -344,34 +344,3 @@ header {
 
 }
 
-/*Bonus: Iteration 3 | Small Mobile Screens (width < 480px)*/
-
-@media (max-width: 480px){
-/*NavBar*/
-
-.navbar {
-  list-style-type: none;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  background-color: red;
-  }
-
-.navbar img{
-  display:block;
-  width:100%;
-  height:auto;
-}
-
-.navbar li {
-  width: 130px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-right: 1px solid #ffffff;
-}
-
-
-
-}
